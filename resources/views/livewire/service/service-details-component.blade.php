@@ -51,7 +51,7 @@
                                         <div class="post-content">
                                             <h3>{{ $service->name }}</h3>
                                             <p>{{ $service->description }}</p>
-                                            <h4>Inclusion</h4>
+                                            <!--<h4>Inclusion</h4>
                                             <ul class="list-styles">
                                                 @foreach (explode("|", $service->inclusion) as $inclusion)
                                                     <li><i class="fa fa-plus"></i>{{ $inclusion }}</li>
@@ -62,8 +62,8 @@
                                                 @foreach (explode("|", $service->exclusion) as $exclusion)
                                                     <li><i class="fa fa-plus"></i>{{ $exclusion }}</li>
                                                 @endforeach
-                                            </ul>
-                                        </div>
+                                            </ul> -->
+                                        </div> 
                                     </div>
                                 </div>
                             </div>

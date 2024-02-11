@@ -14,7 +14,7 @@ class AdminServicesComponent extends Component
     {
         $service = Service::find($service_id);
 
-        if ($service->thumbnail) {
+       if ($service->thumbnail) {
             unlink('images/services/thumbnails' . '/' . $service->thumbnail);
         }
 
