@@ -51,7 +51,7 @@
                             @endforeach
                         @else
                             <div class="col-md-12" style="padding-bottom: 30px">
-                                <h5 class="text-center">There is no service available!</h5>
+                                <h2 class="text-center">There is no service available!</h2>
                             </div>
                         @endif
 

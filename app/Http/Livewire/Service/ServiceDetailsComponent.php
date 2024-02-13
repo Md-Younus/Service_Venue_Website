@@ -18,4 +18,7 @@ class ServiceDetailsComponent extends Component
         $r_service = Service::where('service_category_id', $service->service_category_id)->where('slug', '!=', $this->service_slug)->inRandomOrder()->first();
         return view('livewire.service.service-details-component', ['service' => $service, 'r_service' => $r_service])->layout('layouts.base');
     }
+
+    
+
 }
